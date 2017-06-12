@@ -16,4 +16,5 @@ regions[sidebar_second]      = Right Sidebar
 regions[footer_top]          = Footer Top
 regions[footer_bottom]       = Footer Bottom
 
+dependencies[] = neato
 dependencies[] = jquery_update
