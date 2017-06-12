@@ -1,0 +1,45 @@
+.header-layout {
+
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-border-radius: 3px !default;
+  $large-screen: em(860) !default;
+
+  //////////////////////////////////////////////////////////////////////////////////
+
+  $header-color: white;
+  $gradient-angle: 10deg;
+
+  background-color: $blue;
+  background-image: linear-gradient(#53aee0,#3da4dc);
+  background-size: cover;
+  padding-bottom: 1em;
+
+  .header-inner {
+    @include outer-container;
+    @include clearfix;
+    color: $header-color;
+    margin: auto;
+    padding: 1.5em 0 0 1em;
+    text-align: center;
+  }
+  .header-logo img {
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .header-nav {
+    padding-top: .5em;
+    a {
+      font-family: 'Exo 2', sans-serif;
+      color:#fff;
+      font-size:1.2em;
+      font-weight: 600;
+      margin: .5em;
+      opacity: 0.75;
+    }
+    a:hover {
+      opacity: 1;
+    }
+  }
+
+}

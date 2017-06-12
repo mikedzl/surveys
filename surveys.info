@@ -1,0 +1,19 @@
+name = surveys
+description = BlueTent Custom sub-theme based on the the Neato base theme.
+screenshot = images/screenshot.jpg
+
+core = 7.x
+engine = phptemplate
+base theme = neato
+
+stylesheets[all][] = css/surveys.css
+
+regions[header]              = Header
+regions[featured]            = Featured
+regions[sidebar_first]       = Left Sidebar
+regions[content]             = Content
+regions[sidebar_second]      = Right Sidebar
+regions[footer_top]          = Footer Top
+regions[footer_bottom]       = Footer Bottom
+
+dependencies[] = jquery_update
